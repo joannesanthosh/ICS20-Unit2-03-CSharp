@@ -16,12 +16,12 @@ class Program
         Console.WriteLine("");
 
         Console.WriteLine("Enter your street number.");
-        streetNumber =(Convert.ToInt32(Console.ReadLine()));
+        streetNumber = (Convert.ToInt32(Console.ReadLine()));
         Console.Write("Enter your street name. ");
         streetName = Console.ReadLine();
 
         Console.WriteLine("");
-        Console.WriteLine("Your info is: " + streetNumber + " "  + streetName + " ");
+        Console.WriteLine("Your info is: " + streetNumber + " " + streetName + " ");
 
         Console.WriteLine("\nDone.");
     }
